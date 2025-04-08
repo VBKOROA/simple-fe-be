@@ -1,0 +1,97 @@
+/* src/App.css */
+.App {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .guestbook-form {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  .guestbook-form div {
+    margin-bottom: 1rem;
+  }
+  
+  .guestbook-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .guestbook-form input[type="text"],
+  .guestbook-form textarea {
+    width: calc(100% - 16px); /* padding 고려 */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .guestbook-form textarea {
+    min-height: 80px;
+    resize: vertical; /* 세로 크기만 조절 가능 */
+  }
+  
+  .guestbook-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+  }
+  
+  .guestbook-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .guestbook-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .guestbook-entries {
+    margin-top: 2rem;
+  }
+  
+  .guestbook-entries ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .guestbook-entries li {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
+  .guestbook-entries strong {
+    color: #0056b3;
+  }
+  
+  .entry-date {
+    display: block;
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 0.5rem;
+    text-align: right;
+  }
